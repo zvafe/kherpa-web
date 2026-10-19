@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# ROS 2 Build & Installation artifacts
+build/
+install/
+log/
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Scratch & automated test scripts
+test_*.js
+debug_*.js
+take_screenshots.js
+*.log
+*.tmp
+
+# Operating system & Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
+.gemini/
